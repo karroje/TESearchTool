@@ -1,0 +1,1332 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  whole.hmm
+# target sequence database:        chunks.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       whole  [M=50]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk52  66894	67006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk54  69894	70006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk38  50894	51006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk49  63894	64006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk39  51894	52006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk4   4894	5006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk28  39894	40006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk20  27895	28007	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk25  34895	35007	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk14  16894	17006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk55  70894	71006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk6   6894	7006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk69  98894	99006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk32  43894	44006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk57  76894	77006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk34  45894	46006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk66  93895	94007	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk24  33895	34007	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk5   5894	6006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk8   8894	9006	112
+    3.5e-11   36.4  33.2    3.9e-11   36.2  23.0    1.0  1  chunk62  88894	89006	112
+    1.5e-10   34.4  32.8    1.6e-10   34.3  22.8    1.0  1  chunk21  28895	29007	112
+    1.5e-10   34.4  32.8    1.6e-10   34.3  22.8    1.0  1  chunk42  55894	56006	112
+    1.5e-10   34.4  32.8    1.6e-10   34.3  22.8    1.0  1  chunk2   2894	3006	112
+    1.5e-10   34.4  32.8    1.6e-10   34.3  22.8    1.0  1  chunk60  86894	87006	112
+    2.9e-10   33.4  33.4    3.3e-10   33.3  23.2    1.0  1  chunk48  62894	63006	112
+    3.2e-10   33.3  33.4    3.6e-10   33.2  23.2    1.0  1  chunk35  46894	47006	112
+    3.2e-10   33.3  33.4    3.6e-10   33.2  23.2    1.0  1  chunk56  71894	72006	112
+    3.2e-10   33.3  33.4    3.6e-10   33.2  23.2    1.0  1  chunk13  15894	16006	112
+    3.4e-10   33.2  32.8    3.8e-10   33.1  22.7    1.0  1  chunk71  23898	24010	112
+    3.7e-10   33.1  33.4    4.2e-10   32.9  23.2    1.0  1  chunk61  87894	88006	112
+    3.7e-10   33.1  33.4    4.2e-10   32.9  23.2    1.0  1  chunk19  25895	26007	112
+    3.7e-10   33.1  33.4    4.2e-10   32.9  23.2    1.0  1  chunk50  64894	65006	112
+    3.8e-10   33.1  33.2    4.3e-10   32.9  23.0    1.0  1  chunk77  74898	75010	112
+    3.8e-10   33.1  33.2    4.3e-10   32.9  23.0    1.0  1  chunk78  85898	86010	112
+    3.8e-10   33.1  33.4    4.3e-10   32.9  23.2    1.0  1  chunk0   894	1006	112
+    3.8e-10   33.1  33.4    4.3e-10   32.9  23.2    1.0  1  chunk11  13893	14005	112
+    3.8e-10   33.1  33.4    4.3e-10   32.9  23.2    1.0  1  chunk51  65894	66006	112
+    4.1e-10   32.9  33.4    4.6e-10   32.8  23.2    1.0  1  chunk22  30895	31007	112
+    4.6e-10   32.8  33.4    5.2e-10   32.6  23.2    1.0  1  chunk33  44894	45006	112
+    4.6e-10   32.8  33.4    5.2e-10   32.6  23.2    1.0  1  chunk43  57894	58006	112
+    4.6e-10   32.8  33.4    5.2e-10   32.6  23.2    1.0  1  chunk36  47894	48006	112
+    4.6e-10   32.8  33.4    5.2e-10   32.6  23.2    1.0  1  chunk47  61894	62006	112
+    4.8e-10   32.7  33.4    5.4e-10   32.6  23.2    1.0  1  chunk26  36895	37007	112
+    5.1e-10   32.7  33.4    5.7e-10   32.5  23.2    1.0  1  chunk29  40894	41006	112
+    5.4e-10   32.6  33.4    6.1e-10   32.4  23.2    1.0  1  chunk59  81894	82006	112
+    5.4e-10   32.6  33.4    6.1e-10   32.4  23.2    1.0  1  chunk18  22895	23007	112
+    5.4e-10   32.6  33.4    6.1e-10   32.4  23.2    1.0  1  chunk68  96894	97006	112
+    5.6e-10   32.5  33.4    6.3e-10   32.4  23.2    1.0  1  chunk92  82906	83018	112
+    5.6e-10   32.5  33.4    6.3e-10   32.4  23.2    1.0  1  chunk91  80906	81018	112
+    5.6e-10   32.5  33.4    6.3e-10   32.4  23.2    1.0  1  chunk90  54906	55018	112
+    5.8e-10   32.5  33.4    6.5e-10   32.3  23.2    1.0  1  chunk40  52894	53006	112
+    5.9e-10   32.5  33.4    6.6e-10   32.3  23.2    1.0  1  chunk3   3894	4006	112
+    5.9e-10   32.5  33.4    6.6e-10   32.3  23.2    1.0  1  chunk23  32895	33007	112
+    6.2e-10   32.4  33.4    6.9e-10   32.2  23.2    1.0  1  chunk27  37895	38007	112
+    6.6e-10   32.3  33.4    7.4e-10   32.1  23.2    1.0  1  chunk41  53894	54006	112
+    6.8e-10   32.3  33.4    7.6e-10   32.1  23.2    1.0  1  chunk63  89894	90006	112
+    6.8e-10   32.3  33.4    7.7e-10   32.1  23.1    1.0  1  chunk85  72900	73012	112
+    6.8e-10   32.3  33.4    7.7e-10   32.1  23.1    1.0  1  chunk82  21901	22013	112
+    6.8e-10   32.3  33.4    7.7e-10   32.1  23.1    1.0  1  chunk79  9900	10012	112
+    6.8e-10   32.3  33.4    7.7e-10   32.1  23.1    1.0  1  chunk80  12899	13011	112
+    1.6e-09   31.1  33.1    1.8e-09   30.9  22.9    1.0  1  chunk30  41894	42006	112
+    2.1e-09   30.7  32.5    2.4e-09   30.5  22.5    1.0  1  chunk44  58894	59006	112
+    3.2e-09   30.1  33.6    3.6e-09   29.9  23.3    1.0  1  chunk7   7894	8006	112
+    3.4e-09   30.0  33.6    3.8e-09   29.9  23.3    1.0  1  chunk1   1894	2006	112
+    3.5e-09   30.0  32.3      4e-09   29.8  22.4    1.0  1  chunk10  11894	12006	112
+    3.7e-09   29.9  33.0    4.1e-09   29.8  22.9    1.0  1  chunk15  17894	18006	112
+    4.1e-09   29.8  33.0    4.6e-09   29.6  22.9    1.0  1  chunk75  84897	85009	112
+    4.4e-09   29.7  28.1      5e-09   29.5  19.4    1.0  1  chunk17  20893	21005	112
+    4.7e-09   29.6  33.6    5.3e-09   29.4  23.3    1.0  1  chunk93  83906	84018	112
+    4.8e-09   29.6  33.6    5.3e-09   29.4  23.3    1.0  1  chunk70  99894	100006	112
+    4.9e-09   29.5  33.6    5.5e-09   29.4  23.3    1.0  1  chunk65  91894	92006	112
+      6e-09   29.2  33.6    6.8e-09   29.1  23.3    1.0  1  chunk31  42894	43006	112
+    6.1e-09   29.2  33.0    6.8e-09   29.0  22.9    1.0  1  chunk73  56897	57009	112
+    6.3e-09   29.2  33.6    7.1e-09   29.0  23.3    1.0  1  chunk45  59893	60005	112
+    6.5e-09   29.1  33.6    7.3e-09   29.0  23.3    1.0  1  chunk37  49894	50006	112
+    6.8e-09   29.1  33.6    7.6e-09   28.9  23.3    1.0  1  chunk9   10894	11006	112
+      7e-09   29.0  33.6    7.9e-09   28.9  23.3    1.0  1  chunk96  26915	27027	112
+    7.3e-09   29.0  33.6    8.2e-09   28.8  23.3    1.0  1  chunk95  24912	25024	112
+    7.4e-09   28.9  33.6    8.2e-09   28.8  23.3    1.0  1  chunk83  29901	30013	112
+    7.9e-09   28.9  33.6    8.8e-09   28.7  23.3    1.0  1  chunk53  68894	69006	112
+    1.3e-08   28.2  33.6    1.5e-08   28.0  23.3    1.0  1  chunk86  73900	74012	112
+      2e-08   27.6  30.7    2.2e-08   27.4  21.3    1.0  1  chunk46  60893	61005	112
+    2.2e-08   27.4  30.7    2.5e-08   27.2  21.3    1.0  1  chunk12  14893	15005	112
+    3.6e-08   26.7  32.6    4.1e-08   26.6  22.6    1.0  1  chunk76  95897	96009	112
+    5.4e-08   26.2  30.5    6.1e-08   26.0  21.2    1.0  1  chunk94  92910	93022	112
+    5.5e-08   26.2  33.2    6.1e-08   26.0  23.0    1.0  1  chunk72  31898	32010	112
+    5.5e-08   26.2  33.2    6.1e-08   26.0  23.0    1.0  1  chunk74  67897	68009	112
+    5.8e-08   26.1  32.5    6.5e-08   25.9  22.5    1.0  1  chunk67  94895	95007	112
+    6.9e-08   25.8  33.8    7.8e-08   25.7  23.4    1.0  1  chunk64  90894	91006	112
+    7.4e-08   25.7  32.7    8.4e-08   25.6  22.7    1.0  1  chunk88  97900	98012	112
+    7.9e-08   25.6  33.8    8.9e-08   25.5  23.4    1.0  1  chunk89  35906	36018	112
+    8.4e-08   25.6  33.8    9.4e-08   25.4  23.4    1.0  1  chunk99  48920	49032	112
+    1.4e-07   24.9  33.8    1.5e-07   24.7  23.4    1.0  1  chunk16  18894	19006	112
+    3.3e-07   23.6  33.3    3.7e-07   23.5  23.1    1.0  1  chunk58  78894	79006	112
+      7e-07   22.6  33.4    7.9e-07   22.4  23.1    1.0  1  chunk87  75900	76012	112
+    1.7e-06   21.3  34.0    1.9e-06   21.2  23.6    1.0  1  chunk98  77916	78028	112
+    2.5e-06   20.9  32.9    2.8e-06   20.7  22.8    1.0  1  chunk84  38901	39013	112
+    3.3e-06   20.4  32.6    3.7e-06   20.3  22.6    1.0  1  chunk81  19900	20012	112
+    9.5e-06   19.0  33.6    1.1e-05   18.8  23.3    1.0  1  chunk97  79915	80027	112
+
+
+Domain annotation for each sequence (and alignments):
+>> chunk52  66894	67006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk52  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk54  69894	70006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk54  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk38  50894	51006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk38  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk49  63894	64006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk49  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk39  51894	52006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk39  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk4  4894	5006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk4  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk28  39894	40006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk28  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk20  27895	28007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk20  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk25  34895	35007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk25  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk14  16894	17006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk14  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk55  70894	71006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk55  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk6  6894	7006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk6  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk69  98894	99006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk69  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk32  43894	44006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk32  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk57  76894	77006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk57  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk34  45894	46006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk34  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk66  93895	94007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk66  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk24  33895	34007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk24  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk5  5894	6006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk5  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk8  8894	9006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk8  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk62  88894	89006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  23.0   3.9e-11   3.9e-11       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 36.2 bits;  conditional E-value: 3.9e-11
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk62  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk21  28895	29007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3  22.8   1.6e-10   1.6e-10       1      48 [.      57     104 ..      57     106 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 34.3 bits;  conditional E-value: 1.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatatta 48 
+              ttaatattttaaaaatattaaatttatttattaaattataatatatta
+  chunk21  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTA 104
+              79*********************************************8 PP
+
+>> chunk42  55894	56006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3  22.8   1.6e-10   1.6e-10       1      48 [.      57     104 ..      57     106 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 34.3 bits;  conditional E-value: 1.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatatta 48 
+              ttaatattttaaaaatattaaatttatttattaaattataatatatta
+  chunk42  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTA 104
+              79*********************************************8 PP
+
+>> chunk2  2894	3006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3  22.8   1.6e-10   1.6e-10       1      48 [.      57     104 ..      57     106 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 34.3 bits;  conditional E-value: 1.6e-10
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatatta 48 
+             ttaatattttaaaaatattaaatttatttattaaattataatatatta
+  chunk2  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTA 104
+             79*********************************************8 PP
+
+>> chunk60  86894	87006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3  22.8   1.6e-10   1.6e-10       1      48 [.      57     104 ..      57     106 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 34.3 bits;  conditional E-value: 1.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatatta 48 
+              ttaatattttaaaaatattaaatttatttattaaattataatatatta
+  chunk60  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTA 104
+              79*********************************************8 PP
+
+>> chunk48  62894	63006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.3  23.2   3.3e-10   3.3e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 33.3 bits;  conditional E-value: 3.3e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaatt taatatattaat
+  chunk48  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTTTAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk35  46894	47006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2  23.2   3.6e-10   3.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 33.2 bits;  conditional E-value: 3.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttattt ttaaattataatatattaat
+  chunk35  57 TTAATATTTTAAAAATATTAAATTTATTTTTTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk56  71894	72006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2  23.2   3.6e-10   3.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 33.2 bits;  conditional E-value: 3.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttattt ttaaattataatatattaat
+  chunk56  57 TTAATATTTTAAAAATATTAAATTTATTTTTTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk13  15894	16006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2  23.2   3.6e-10   3.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 33.2 bits;  conditional E-value: 3.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttattt ttaaattataatatattaat
+  chunk13  57 TTAATATTTTAAAAATATTAAATTTATTTTTTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk71  23898	24010	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.1  22.7   3.8e-10   3.8e-10       2      50 .]      55     103 ..      54     103 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 33.1 bits;  conditional E-value: 3.8e-10
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              t atattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk71  55 TTATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 103
+              669********************************************97 PP
+
+>> chunk61  87894	88006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.2   4.2e-10   4.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaat ttaaatttatttattaaattataatatattaat
+  chunk61  57 TTAATATTTTAAAAATTTTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk19  25895	26007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.2   4.2e-10   4.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaat ttaaatttatttattaaattataatatattaat
+  chunk19  57 TTAATATTTTAAAAATTTTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk50  64894	65006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.2   4.2e-10   4.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattat atatattaat
+  chunk50  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATTATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk77  74898	75010	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.0   4.3e-10   4.3e-10       1      50 []      53     102 ..      53     102 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.3e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              tta tattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk77  53 TTATTATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 102
+              6899********************************************97 PP
+
+>> chunk78  85898	86010	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.0   4.3e-10   4.3e-10       1      50 []      53     102 ..      53     102 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.3e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              tta tattttaaaaatattaaatttatttattaaattataatatattaat
+  chunk78  53 TTATTATTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 102
+              6899********************************************97 PP
+
+>> chunk0  894	1006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.2   4.3e-10   4.3e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.3e-10
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttatttattaaattataatat ttaat
+  chunk0  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATTTTAAT 106
+             79**********************************************97 PP
+
+>> chunk11  13893	14005	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.2   4.3e-10   4.3e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.3e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatat ttaat
+  chunk11  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATTTTAAT 106
+              79**********************************************97 PP
+
+>> chunk51  65894	66006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  23.2   4.3e-10   4.3e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.9 bits;  conditional E-value: 4.3e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataatat ttaat
+  chunk51  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATATTTTAAT 106
+              79**********************************************97 PP
+
+>> chunk22  30895	31007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.8  23.2   4.6e-10   4.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.8 bits;  conditional E-value: 4.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaa ttataatatattaat
+  chunk22  57 TTAATATTTTAAAAATATTAAATTTATTTATTAATTTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk33  44894	45006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6  23.2   5.2e-10   5.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.6 bits;  conditional E-value: 5.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttatt aattataatatattaat
+  chunk33  57 TTAATATTTTAAAAATATTAAATTTATTTATTTAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk43  57894	58006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6  23.2   5.2e-10   5.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.6 bits;  conditional E-value: 5.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaattt tttattaaattataatatattaat
+  chunk43  57 TTAATATTTTAAAAATATTAAATTTTTTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk36  47894	48006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6  23.2   5.2e-10   5.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.6 bits;  conditional E-value: 5.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaattt tttattaaattataatatattaat
+  chunk36  57 TTAATATTTTAAAAATATTAAATTTTTTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk47  61894	62006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6  23.2   5.2e-10   5.2e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.6 bits;  conditional E-value: 5.2e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaattt tttattaaattataatatattaat
+  chunk47  57 TTAATATTTTAAAAATATTAAATTTTTTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk26  36895	37007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6  23.2   5.4e-10   5.4e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.6 bits;  conditional E-value: 5.4e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaa tattaaatttatttattaaattataatatattaat
+  chunk26  57 TTAATATTTTAAAATTATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk29  40894	41006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.5  23.2   5.7e-10   5.7e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.5 bits;  conditional E-value: 5.7e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaa atattaaatttatttattaaattataatatattaat
+  chunk29  57 TTAATATTTTAAATATATTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk59  81894	82006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  23.2   6.1e-10   6.1e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.4 bits;  conditional E-value: 6.1e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaa tttatttattaaattataatatattaat
+  chunk59  57 TTAATATTTTAAAAATATTAATTTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk18  22895	23007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  23.2   6.1e-10   6.1e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.4 bits;  conditional E-value: 6.1e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaa tttatttattaaattataatatattaat
+  chunk18  57 TTAATATTTTAAAAATATTAATTTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk68  96894	97006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  23.2   6.1e-10   6.1e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.4 bits;  conditional E-value: 6.1e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaa tttatttattaaattataatatattaat
+  chunk68  57 TTAATATTTTAAAAATATTAATTTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk92  82906	83018	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  23.2   6.3e-10   6.3e-10       1      50 []      45      94 ..      45      94 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.4 bits;  conditional E-value: 6.3e-10
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttta aaatattaaatttatttattaaattataatatattaat
+  chunk92 45 TTAATATTTTATAAATATTAAATTTATTTATTAAATTATAATATATTAAT 94
+             79**********************************************97 PP
+
+>> chunk91  80906	81018	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  23.2   6.3e-10   6.3e-10       1      50 []      45      94 ..      45      94 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.4 bits;  conditional E-value: 6.3e-10
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttta aaatattaaatttatttattaaattataatatattaat
+  chunk91 45 TTAATATTTTATAAATATTAAATTTATTTATTAAATTATAATATATTAAT 94
+             79**********************************************97 PP
+
+>> chunk90  54906	55018	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4  23.2   6.3e-10   6.3e-10       1      50 []      45      94 ..      45      94 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.4 bits;  conditional E-value: 6.3e-10
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttta aaatattaaatttatttattaaattataatatattaat
+  chunk90 45 TTAATATTTTATAAATATTAAATTTATTTATTAAATTATAATATATTAAT 94
+             79**********************************************97 PP
+
+>> chunk40  52894	53006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3  23.2   6.5e-10   6.5e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.3 bits;  conditional E-value: 6.5e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattataat tattaat
+  chunk40  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATAATTTATTAAT 106
+              79**********************************************97 PP
+
+>> chunk3  3894	4006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3  23.2   6.6e-10   6.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.3 bits;  conditional E-value: 6.6e-10
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatatta atttatttattaaattataatatattaat
+  chunk3  57 TTAATATTTTAAAAATATTATATTTATTTATTAAATTATAATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk23  32895	33007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.3  23.2   6.6e-10   6.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.3 bits;  conditional E-value: 6.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatta atttatttattaaattataatatattaat
+  chunk23  57 TTAATATTTTAAAAATATTATATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk27  37895	38007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.2  23.2   6.9e-10   6.9e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.2 bits;  conditional E-value: 6.9e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaattata tatattaat
+  chunk27  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATATTATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk41  53894	54006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1  23.2   7.4e-10   7.4e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 7.4e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatt aatttatttattaaattataatatattaat
+  chunk41  57 TTAATATTTTAAAAATATTTAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk63  89894	90006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1  23.2   7.6e-10   7.6e-10       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 7.6e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttatta attataatatattaat
+  chunk63  57 TTAATATTTTAAAAATATTAAATTTATTTATTATATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk85  72900	73012	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1  23.1   7.7e-10   7.7e-10       1      50 []      51     100 ..      51     100 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 7.7e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaat ttttaaaaatattaaatttatttattaaattataatatattaat
+  chunk85  51 TTAATTTTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 100
+              79**********************************************97 PP
+
+>> chunk82  21901	22013	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1  23.1   7.7e-10   7.7e-10       1      50 []      51     100 ..      51     100 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 7.7e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaat ttttaaaaatattaaatttatttattaaattataatatattaat
+  chunk82  51 TTAATTTTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 100
+              79**********************************************97 PP
+
+>> chunk79  9900	10012	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1  23.1   7.7e-10   7.7e-10       1      50 []      51     100 ..      51     100 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 7.7e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaat ttttaaaaatattaaatttatttattaaattataatatattaat
+  chunk79  51 TTAATTTTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 100
+              79**********************************************97 PP
+
+>> chunk80  12899	13011	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1  23.1   7.7e-10   7.7e-10       1      50 []      51     100 ..      51     100 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 7.7e-10
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaat ttttaaaaatattaaatttatttattaaattataatatattaat
+  chunk80  51 TTAATTTTTTAAAAATATTAAATTTATTTATTAAATTATAATATATTAAT 100
+              79**********************************************97 PP
+
+>> chunk30  41894	42006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9  22.9   1.8e-09   1.8e-09       1      48 [.      57     104 ..      57     106 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 30.9 bits;  conditional E-value: 1.8e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatatta 48 
+              ttaatattttaaaaatattaaatttatttattaaattat atatatta
+  chunk30  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTATTATATATTA 104
+              79********************************************98 PP
+
+>> chunk44  58894	59006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.5  22.5   2.4e-09   2.4e-09       1      50 []      57     105 ..      57     105 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 30.5 bits;  conditional E-value: 2.4e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaa aatattaaatttatttattaaattataatatattaat
+  chunk44  57 TTAATATTTTAA-AATATTAAATTTATTTATTAAATTATAATATATTAAT 105
+              79******9986.68*********************************97 PP
+
+>> chunk7  7894	8006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9  23.3   3.6e-09   3.6e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.9 bits;  conditional E-value: 3.6e-09
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttatttattaaatt taatat ttaat
+  chunk7  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTTTAATATTTTAAT 106
+             79**********************************************97 PP
+
+>> chunk1  1894	2006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9  23.3   3.8e-09   3.8e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.9 bits;  conditional E-value: 3.8e-09
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaaaatattaaatttattt ttaaattat atatattaat
+  chunk1  57 TTAATATTTTAAAAATATTAAATTTATTTTTTAAATTATTATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk10  11894	12006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.8  22.4     4e-09     4e-09       1      50 []      57     105 ..      57     105 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 29.8 bits;  conditional E-value: 4e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttat tattaaattataatatattaat
+  chunk10  57 TTAATATTTTAAAAATATTAAATTTAT-TATTAAATTATAATATATTAAT 105
+              79************************6.7*******************97 PP
+
+>> chunk15  17894	18006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.8  22.9   4.1e-09   4.1e-09       1      49 [.      57     105 ..      57     106 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 29.8 bits;  conditional E-value: 4.1e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaa 49 
+              ttaatattttaaaaatattaaatttatttattaa ttataatatatt a
+  chunk15  57 TTAATATTTTAAAAATATTAAATTTATTTATTAATTTATAATATATTTA 105
+              79********************************************976 PP
+
+>> chunk75  84897	85009	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6  22.9   4.6e-09   4.6e-09       2      50 .]      55     103 ..      54     103 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 29.6 bits;  conditional E-value: 4.6e-09
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              t atattttaaaaatattaaatttatttattaa ttataatatattaat
+  chunk75  55 TTATATTTTAAAAATATTAAATTTATTTATTAATTTATAATATATTAAT 103
+              669********************************************97 PP
+
+>> chunk17  20893	21005	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.5  19.4     5e-09     5e-09       1      50 []      57     108 ..      57     108 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 29.5 bits;  conditional E-value: 5e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataata..tattaat 50 
+              ttaatattttaaaaatattaaatttatttatta attataata  tattaat
+  chunk17  57 TTAATATTTTAAAAATATTAAATTTATTTATTATATTATAATAgcTATTAAT 108
+              79****************************************9889999986 PP
+
+>> chunk93  83906	84018	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.4  23.3   5.3e-09   5.3e-09       1      50 []      45      94 ..      45      94 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.4 bits;  conditional E-value: 5.3e-09
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttta aaatattaaatttatttattaaatt taatatattaat
+  chunk93 45 TTAATATTTTATAAATATTAAATTTATTTATTAAATTTTAATATATTAAT 94
+             79**********************************************97 PP
+
+>> chunk70  99894	100006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.4  23.3   5.3e-09   5.3e-09       1      50 []      57     106 .]      57     106 .] 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.4 bits;  conditional E-value: 5.3e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaa at ttaaatttatttattaaattataatatattaat
+  chunk70  57 TTAATATTTTAAATATTTTAAATTTATTTATTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk65  91894	92006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.4  23.3   5.5e-09   5.5e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.4 bits;  conditional E-value: 5.5e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttattaaatt taat tattaat
+  chunk65  57 TTAATATTTTAAAAATATTAAATTTATTTATTAAATTTTAATTTATTAAT 106
+              79**********************************************97 PP
+
+>> chunk31  42894	43006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.1  23.3   6.8e-09   6.8e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.1 bits;  conditional E-value: 6.8e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatt aatttattt ttaaattataatatattaat
+  chunk31  57 TTAATATTTTAAAAATATTTAATTTATTTTTTAAATTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk73  56897	57009	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0  22.9   6.8e-09   6.8e-09       2      50 .]      55     103 ..      54     103 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 29.0 bits;  conditional E-value: 6.8e-09
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              t atattttaaaaatattaaatttatttattaaattata tatattaat
+  chunk73  55 TTATATTTTAAAAATATTAAATTTATTTATTAAATTATATTATATTAAT 103
+              669********************************************97 PP
+
+>> chunk45  59893	60005	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0  23.3   7.1e-09   7.1e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.0 bits;  conditional E-value: 7.1e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatta atttatttattaaattat atatattaat
+  chunk45  57 TTAATATTTTAAAAATATTATATTTATTTATTAAATTATTATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk37  49894	50006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0  23.3   7.3e-09   7.3e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 29.0 bits;  conditional E-value: 7.3e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatta atttatttattaaattataatat ttaat
+  chunk37  57 TTAATATTTTAAAAATATTATATTTATTTATTAAATTATAATATTTTAAT 106
+              79**********************************************97 PP
+
+>> chunk9  10894	11006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9  23.3   7.6e-09   7.6e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 28.9 bits;  conditional E-value: 7.6e-09
+   whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+             ttaatattttaaa atattaaattt tttattaaattataatatattaat
+  chunk9  57 TTAATATTTTAAATATATTAAATTTTTTTATTAAATTATAATATATTAAT 106
+             79**********************************************97 PP
+
+>> chunk96  26915	27027	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.9  23.3   7.9e-09   7.9e-09       1      50 []      37      86 ..      37      86 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 28.9 bits;  conditional E-value: 7.9e-09
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttt aaaatatt aatttatttattaaattataatatattaat
+  chunk96 37 TTAATATTTTTAAAATATTTAATTTATTTATTAAATTATAATATATTAAT 86
+             79**********************************************97 PP
+
+>> chunk95  24912	25024	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.8  23.3   8.2e-09   8.2e-09       1      50 []      40      89 ..      40      89 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 28.8 bits;  conditional E-value: 8.2e-09
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaat ttttaaaaat ttaaatttatttattaaattataatatattaat
+  chunk95 40 TTAATTTTTTAAAAATTTTAAATTTATTTATTAAATTATAATATATTAAT 89
+             79**********************************************97 PP
+
+>> chunk83  29901	30013	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.8  23.3   8.2e-09   8.2e-09       1      50 []      51     100 ..      51     100 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 28.8 bits;  conditional E-value: 8.2e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaat ttttaaaaatattaaatttatttattaaattat atatattaat
+  chunk83  51 TTAATTTTTTAAAAATATTAAATTTATTTATTAAATTATTATATATTAAT 100
+              79**********************************************97 PP
+
+>> chunk53  68894	69006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7  23.3   8.8e-09   8.8e-09       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 28.7 bits;  conditional E-value: 8.8e-09
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatt aatttatttattaa ttataatatattaat
+  chunk53  57 TTAATATTTTAAAAATATTTAATTTATTTATTAATTTATAATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk86  73900	74012	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0  23.3   1.5e-08   1.5e-08       1      50 []      51     100 ..      51     100 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 28.0 bits;  conditional E-value: 1.5e-08
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaat ttttaaaaatatt aatttatttattaaattataatatattaat
+  chunk86  51 TTAATTTTTTAAAAATATTTAATTTATTTATTAAATTATAATATATTAAT 100
+              79**********************************************97 PP
+
+>> chunk46  60893	61005	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4  21.3   2.2e-08   2.2e-08       1      50 []      57     107 ..      57     107 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 27.4 bits;  conditional E-value: 2.2e-08
+    whole   1 ttaatattttaaaaatatta.aatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatatta aatttatttattaaattataat tattaat
+  chunk46  57 TTAATATTTTAAAAATATTAgAATTTATTTATTAAATTATAATTTATTAAT 107
+              79*****************9899**************************97 PP
+
+>> chunk12  14893	15005	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2  21.3   2.5e-08   2.5e-08       1      50 []      57     107 ..      57     107 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 27.2 bits;  conditional E-value: 2.5e-08
+    whole   1 ttaatattttaaaaatattaaatttatttat.taaattataatatattaat 50 
+              ttaatattttaaaaatatta atttatttat taaattataatatattaat
+  chunk12  57 TTAATATTTTAAAAATATTATATTTATTTATgTAAATTATAATATATTAAT 107
+              79****************************999****************97 PP
+
+>> chunk76  95897	96009	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.6  22.6   4.1e-08   4.1e-08       2      49 ..      55     102 ..      54     103 .. 0.94
+
+  Alignments for each domain:
+  == domain 1    score: 26.6 bits;  conditional E-value: 4.1e-08
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaa 49 
+              t atattttaaaaatattaaatttatttattaa ttataatatatt a
+  chunk76  55 TTATATTTTAAAAATATTAAATTTATTTATTAATTTATAATATATTTA 102
+              669******************************************976 PP
+
+>> chunk94  92910	93022	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0  21.2   6.1e-08   6.1e-08       1      48 [.      41      89 ..      41      91 .. 0.92
+
+  Alignments for each domain:
+  == domain 1    score: 26.0 bits;  conditional E-value: 6.1e-08
+    whole  1 ttaatattttaaaaa.tattaaatttatttattaaattataatatatta 48
+             ttaatatttta aaa tattaaatttatttattaaattataatatatta
+  chunk94 41 TTAATATTTTATAAAcTATTAAATTTATTTATTAAATTATAATATATTA 89
+             79********966655********************************8 PP
+
+>> chunk72  31898	32010	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0  23.0   6.1e-08   6.1e-08       2      50 .]      55     103 ..      54     103 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 26.0 bits;  conditional E-value: 6.1e-08
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              t atattttaaaaatattaaatttatttatt a ttataatatattaat
+  chunk72  55 TTATATTTTAAAAATATTAAATTTATTTATTTATTTATAATATATTAAT 103
+              669********************************************97 PP
+
+>> chunk74  67897	68009	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0  23.0   6.1e-08   6.1e-08       2      50 .]      55     103 ..      54     103 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 26.0 bits;  conditional E-value: 6.1e-08
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              t atattttaaaaatattaaattt tttattaa ttataatatattaat
+  chunk74  55 TTATATTTTAAAAATATTAAATTTTTTTATTAATTTATAATATATTAAT 103
+              669********************************************97 PP
+
+>> chunk67  94895	95007	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9  22.5   6.5e-08   6.5e-08       1      50 []      57     105 ..      57     105 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 25.9 bits;  conditional E-value: 6.5e-08
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaa atattaaat tatttattaaattataatatattaat
+  chunk67  57 TTAATATTTTAAATATATTAAAT-TATTTATTAAATTATAATATATTAAT 105
+              79********************6.7***********************97 PP
+
+>> chunk64  90894	91006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7  23.4   7.8e-08   7.8e-08       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 25.7 bits;  conditional E-value: 7.8e-08
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaa tattaaattt tttattaaattat atatattaat
+  chunk64  57 TTAATATTTTAAAATTATTAAATTTTTTTATTAAATTATTATATATTAAT 106
+              79**********************************************97 PP
+
+>> chunk88  97900	98012	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6  22.7   8.4e-08   8.4e-08       2      50 .]      52     100 ..      51     100 .. 0.95
+
+  Alignments for each domain:
+  == domain 1    score: 25.6 bits;  conditional E-value: 8.4e-08
+    whole   2 taatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              t at ttttaaaaatattaaatttatttattaaattata tatattaat
+  chunk88  52 TTATTTTTTAAAAATATTAAATTTATTTATTAAATTATATTATATTAAT 100
+              557889*****************************************97 PP
+
+>> chunk89  35906	36018	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5  23.4   8.9e-08   8.9e-08       1      50 []      46      95 ..      46      95 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 25.5 bits;  conditional E-value: 8.9e-08
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttt aaaatattaaatttatttattaa ttata tatattaat
+  chunk89 46 TTAATATTTTTAAAATATTAAATTTATTTATTAATTTATATTATATTAAT 95
+             79**********************************************97 PP
+
+>> chunk99  48920	49032	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.4  23.4   9.4e-08   9.4e-08       1      50 []      31      80 ..      31      80 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 25.4 bits;  conditional E-value: 9.4e-08
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttt aaaatatta attt tttattaaattataatatattaat
+  chunk99 31 TTAATATTTTTAAAATATTATATTTTTTTATTAAATTATAATATATTAAT 80
+             79**********************************************97 PP
+
+>> chunk16  18894	19006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.7  23.4   1.5e-07   1.5e-07       1      50 []      57     106 ..      57     106 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 24.7 bits;  conditional E-value: 1.5e-07
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              ttaatattttaaaaatattaaatttatttatta  ttataat tattaat
+  chunk16  57 TTAATATTTTAAAAATATTAAATTTATTTATTATTTTATAATTTATTAAT 106
+              79**********************************************97 PP
+
+>> chunk58  78894	79006	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5  23.1   3.7e-07   3.7e-07       1      48 [.      57     104 ..      57     106 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 23.5 bits;  conditional E-value: 3.7e-07
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatatta 48 
+              ttaatattttaaa atattaa tttatttattaaattataatat tta
+  chunk58  57 TTAATATTTTAAATATATTAATTTTATTTATTAAATTATAATATTTTA 104
+              79******************************************9998 PP
+
+>> chunk87  75900	76012	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4  23.1   7.9e-07   7.9e-07       1      50 []      51     100 ..      51     100 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 22.4 bits;  conditional E-value: 7.9e-07
+    whole   1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50 
+              tta t ttttaaaaatattaaatttatttattaaatt taat tattaat
+  chunk87  51 TTATTTTTTTAAAAATATTAAATTTATTTATTAAATTTTAATTTATTAAT 100
+              6788899*****************************************97 PP
+
+>> chunk98  77916	78028	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.2  23.6   1.9e-06   1.9e-06       1      50 []      35      84 ..      35      84 .. 0.98
+
+  Alignments for each domain:
+  == domain 1    score: 21.2 bits;  conditional E-value: 1.9e-06
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaatatttta aaatattaa tttatttattaaattata tat ttaat
+  chunk98 35 TTAATATTTTATAAATATTAATTTTATTTATTAAATTATATTATTTTAAT 84
+             79**********************************************97 PP
+
+>> chunk84  38901	39013	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.7  22.8   2.8e-06   2.8e-06       1      50 []      51      99 ..      51      99 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 20.7 bits;  conditional E-value: 2.8e-06
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaat ttttaaaaatatt aatttatttattaaattat atatattaat
+  chunk84 51 TTAATTTTTTAAAAATATTTAATTTATTTATTAAATTAT-ATATATTAAT 99
+             79************************************9.5*******97 PP
+
+>> chunk81  19900	20012	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3  22.6   3.7e-06   3.7e-06       1      50 []      51      99 ..      51      99 .. 0.97
+
+  Alignments for each domain:
+  == domain 1    score: 20.3 bits;  conditional E-value: 3.7e-06
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaat 50
+             ttaat ttttaaaaatattaa tttatttattaaatta aatatattaat
+  chunk81 51 TTAATTTTTTAAAAATATTAATTTTATTTATTAAATTA-AATATATTAAT 99
+             79***********************************9.9********97 PP
+
+>> chunk97  79915	80027	112
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.8  23.3   1.1e-05   1.1e-05       1      49 [.      36      84 ..      36      85 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 18.8 bits;  conditional E-value: 1.1e-05
+    whole  1 ttaatattttaaaaatattaaatttatttattaaattataatatattaa 49
+             ttaat ttttaaaaat tta atttatttattaaatt taatatatt a
+  chunk97 36 TTAATTTTTTAAAAATTTTATATTTATTTATTAAATTTTAATATATTTA 84
+             79********************************************976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (50 nodes)
+Target sequences:                        100  (11194 residues)
+Passed MSV filter:                       100  (1); expected 2.0 (0.02)
+Passed bias filter:                      100  (1); expected 2.0 (0.02)
+Passed Vit filter:                       100  (1); expected 0.1 (0.001)
+Passed Fwd filter:                       100  (1); expected 0.0 (1e-05)
+Initial search space (Z):                100  [actual number of targets]
+Domain search space  (domZ):             100  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.02
+# Mc/sec: 27.98
+//

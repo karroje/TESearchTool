@@ -1,0 +1,3 @@
+alpha          TP        FP        TN        FN        sensitivity         averageSquareTrim   leftMedian          rightMedian         leftMedianPositive  rightMedianPositive leftMedianNegative  rightMedianNegative
+0.02           901       2         0         99        0.901               91.9200887902       1                   1                   2                   2                   -1                  -1                                      
+0.02           893       1         0         107       0.893               58.4815229563       1                   1                   2.0                 2.0                 -1                  -1.0                                    

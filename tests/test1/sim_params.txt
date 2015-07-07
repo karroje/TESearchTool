@@ -1,0 +1,44 @@
+# Substitution rate matrix (A, C, G, T)
+substitution rates
+0.67 0.11 0.11 0.11
+0.11 0.67 0.11 0.11
+0.11 0.11 0.67 0.11
+0.11 0.11 0.11 0.67
+
+# Transition rate matrix (Match, Insert, Delete)
+transition rates
+0.98 0.01 0.01
+0.95 0.05 0
+0.95 0 0.05
+
+# Background distribution of bases for the ancestor
+ancestor distribution
+0.3 0.2 0.2 0.3
+
+# Background distribution of bases for the genome
+background distribution
+0.2 0.3 0.3 0.2
+
+# Length of ancestor
+ancestor length
+50
+
+# Number of descendents in the mal file
+number modern
+100
+
+# Probability of cut-off for each TE(descendent) in the genome
+cut off
+1.0
+
+# Number of TEs in the genome
+number TEs
+100
+
+# Background length between TEs
+background length
+500
+
+# Distribution to generate random numbers for TE cut off
+distribution parameters
+EXPO 5.0 
